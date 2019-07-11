@@ -19,7 +19,7 @@
 				<ChannelType index="3" attribute="CUE ZZ" feature="CUE SELECT" preset="VIDEO" coarse="7">
 					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
 				</ChannelType>
-				<ChannelType index="4" attribute="PLAY STATUS" feature="COMMAND" preset="TIMELINE" coarse="8" snap="true">
+				<ChannelType index="4" attribute="PLAY STATUS" feature="Command" preset="VIDEO" coarse="8" snap="true">
 					<ChannelFunction index="0" name="Play Status" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
 						<ChannelSet index="0" name="Idle" from_dmx="0" to_dmx="9" />
 						<ChannelSet index="1" name="Play" from_dmx="11" to_dmx="20" />
@@ -31,7 +31,7 @@
 						<ChannelSet index="7" name="Next Cue" from_dmx="71" to_dmx="80" />
 					</ChannelFunction>
 				</ChannelType>
-				<ChannelType index="5" attribute="MACHINE FAILOVER" feature="COMMAND" preset="TIMELINE" coarse="9">
+				<ChannelType index="5" attribute="MACHINE FAILOVER" feature="Command" preset="VIDEO" coarse="9">
 					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
 				</ChannelType>
 			</Module>
