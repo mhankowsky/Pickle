@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.7.0/MA.xsd" major_vers="3" minor_vers="7" stream_vers="0">
 	<Info datetime="2019-07-11T13:27:41" showfile="f9 start upskilling 190710 charles evening" />
-	<FixtureType index="3" name="MbD v4.3 Layer" mode="MAv3343_RevA1">
+	<FixtureType index="3" name="MbD v4.3 Layer" mode="MAv3343_pickle_RevA1">
 		<InfoItems>
 			<Info type="Revision" date="2012-12-14T00:00:00">v3.6 Created by mcorke@PRG</Info>
 			<Info type="Invisible" date="2012-12-14T00:00:00">generator_software_name=&quot;grandMA2&quot;,generator_software_version&quot;9ccb04021da8059ae472b5476e4f37e855352377&quot;</Info>
