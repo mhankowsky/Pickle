@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="2" minor_vers="8" stream_Vers="3" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd">
+  <FixtureType index="0" mode="listen__F9_RevA1" name="d3 Timeline">
+    <short_name>Timeline-listen</short_name>
+    <manufacturer>d3</manufacturer>
+    <short_manufacturer>d3</short_manufacturer>
+    <Modules index="0">
+      <Module beam_angle="35.000" beam_intensity="10000.000" beamtype="Wash" class="None" index="0">
+        <ChannelType attribute="Dimmer" coarse="1" default="255.0" feature="Dimmer" index="0" max="255.0" min="0.0" preset="Video">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255.0"/>
+        </ChannelType>
+        <ChannelType attribute="Cue XX" coarse="5" default="0.0" feature="Cue Select" index="1" max="100.0" min="0.0" preset="Video">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="100.0"/>
+        </ChannelType>
+        <ChannelType attribute="Cue YY" coarse="6" default="0.0" feature="Cue Select" index="2" max="100.0" min="0.0" preset="Video">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="100.0"/>
+        </ChannelType>
+        <ChannelType attribute="Cue ZZ" coarse="7" default="0.0" feature="Cue Select" index="3" max="100.0" min="0.0" preset="Video">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="100.0"/>
+        </ChannelType>
+        <ChannelType attribute="Play Status" coarse="8" default="0.0" feature="Command" index="4" preset="Video" snap="true">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" name="Play Status" to="255">
+            <ChannelSet from_dmx="0" index="0" name="Idle" to_dmx="9"/>
+            <ChannelSet from_dmx="11" index="1" name="Play" to_dmx="20"/>
+            <ChannelSet from_dmx="21" index="2" name="Play to End of Section" to_dmx="30"/>
+            <ChannelSet from_dmx="31" index="3" name="Loop Section" to_dmx="40"/>
+            <ChannelSet from_dmx="41" index="4" name="Stop" to_dmx="50"/>
+            <ChannelSet from_dmx="51" index="5" name="Next Section" to_dmx="60"/>
+            <ChannelSet from_dmx="61" index="6" name="Previous Section" to_dmx="70"/>
+            <ChannelSet from_dmx="71" index="7" name="Next Cue" to_dmx="80"/>
+          </ChannelFunction>
+        </ChannelType>
+        <ChannelType attribute="Machine Failover" coarse="9" default="0.0" feature="Command" index="5" max="100.0" min="0.0" preset="Video">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="100.0"/>
+        </ChannelType>
+      </Module>
+    </Modules>
+    <Instances index="1">
+      <Instance index="0" module_index="0" patch="1"/>
+    </Instances>
+    <Wheels index="2"/>
+    <VirtualFunctionBlocks index="3"/>
+    <Body/>
+  </FixtureType>
+</MA>

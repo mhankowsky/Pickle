@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.7.0/MA.xsd" major_vers="3" minor_vers="7" stream_vers="0">
+	<Info datetime="2019-07-10T18:22:33" showfile="f9 start upskilling 190710 charles" />
+	<FixtureType index="39" name="d3 Layer" mode="v16_F9_RevA1">
+		<short_name>d3-Layer</short_name>
+		<manufacturer>d3</manufacturer>
+		<short_manufacturer>d3</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="BLEND MODE" feature="DEFAULT" preset="VIDEO" coarse="1" default="1" snap="true">
+					<ChannelFunction index="0" name="blendMode" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
+						<ChannelSet index="0" name="Over" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Alpha" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="Add" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="3" name="Multiply" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="4" name="Mask" from_dmx="4" to_dmx="4" />
+						<ChannelSet index="5" name="Multiply-fade" from_dmx="5" to_dmx="5" />
+						<ChannelSet index="6" name="Multiply-alpha" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="7" name="Premult-Alpha" from_dmx="7" to_dmx="7" />
+						<ChannelSet index="8" name="Screen" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="9" name="Overlay" from_dmx="9" to_dmx="9" />
+						<ChannelSet index="10" name="Hard Light" from_dmx="10" to_dmx="10" />
+						<ChannelSet index="11" name="Soft Light" from_dmx="11" to_dmx="11" />
+						<ChannelSet index="12" name="Colour Burn" from_dmx="12" to_dmx="12" />
+						<ChannelSet index="13" name="Darken" from_dmx="13" to_dmx="13" />
+						<ChannelSet index="14" name="Lighten" from_dmx="14" to_dmx="14" />
+						<ChannelSet index="15" name="Difference" from_dmx="15" to_dmx="15" />
+						<ChannelSet index="16" name="Exclusion" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="17" name="Colour Dodge" from_dmx="17" to_dmx="17" />
+						<ChannelSet index="18" name="Hard Mix" from_dmx="18" to_dmx="18" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIMMER" feature="DIMMER" preset="DIMMER" coarse="2" default="255">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="2" attribute="MAPPING BANK" feature="DEFAULT" preset="VIDEO" coarse="3" snap="true">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="3" attribute="MAPPING SLOT" feature="DEFAULT" preset="VIDEO" coarse="4" snap="true">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="5" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="Red" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="6" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="Green" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="7" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="Blue" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="7" attribute="VIDEO BANK" feature="CLIP" preset="VIDEO" coarse="8">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Video Bank" subattribute_user_name="Video Bank" attribute="VIDEO BANK" attribute_user_name="Video Bank" feature="CLIP" feature_user_name="Clip" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="8" attribute="VIDEO SLOT" feature="CLIP" preset="VIDEO" coarse="9">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="9" attribute="SPEED" feature="MEDIA" preset="VIDEO" coarse="10" fine="11" default="36044">
+					<ChannelFunction index="0" from="-10" to="10" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="10" attribute="PLAY MODE" feature="MEDIA" preset="VIDEO" coarse="12" default="1" snap="true">
+					<ChannelFunction index="0" name="mode" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Play Mode" subattribute_user_name="Play Mode" attribute="PLAY MODE" attribute_user_name="Play Mode" feature="MEDIA" feature_user_name="Media" preset="VIDEO" preset_user_name="Video">
+						<ChannelSet index="0" name="Locked" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Normal" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="Reset" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="3" name="Pause" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="4" name="Inframe" from_dmx="4" to_dmx="4" />
+						<ChannelSet index="5" name="Reverse" from_dmx="5" to_dmx="5" />
+						<ChannelSet index="6" name="Outframe" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="7" name="Timecode" from_dmx="7" to_dmx="7" />
+						<ChannelSet index="8" name="LoopInFrame" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="9" name="LoopOutFrame" from_dmx="9" to_dmx="9" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="IN FRAME" feature="MEDIA" preset="VIDEO" coarse="14" fine="15">
+					<ChannelFunction index="0" from="0" to="65535" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="12" attribute="OUT FRAME" feature="MEDIA" preset="VIDEO" coarse="16" fine="17">
+					<ChannelFunction index="0" from="0" to="65535" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="13" attribute="AT END POINT" feature="MEDIA" preset="VIDEO" coarse="13" snap="true">
+					<ChannelFunction index="0" name="at end point" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
+						<ChannelSet index="0" name="Loop" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Ping-pong" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="Pause" from_dmx="2" to_dmx="2" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="TRANSITION TIME" feature="MEDIA" preset="VIDEO" coarse="18" fine="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="15" attribute="VOLUME" feature="AUDIO" preset="VIDEO" coarse="20" default="255">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="16" attribute="OUTPUT BANK" feature="AUDIO" preset="VIDEO" coarse="21">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="17" attribute="OUTPUT SLOT" feature="AUDIO" preset="VIDEO" coarse="22">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="18" attribute="BRIGHTNESS" feature="COLOR ADJUST" preset="VIDEO" coarse="23" fine="24" default="32767">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="19" attribute="CONTRAST" feature="COLOR ADJUST" preset="VIDEO" coarse="25" fine="26" default="33095">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="20" attribute="SATURATION" feature="COLOR ADJUST" preset="VIDEO" coarse="27" fine="28" default="33095">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="21" attribute="HUE SHIFT" feature="COLOR ADJUST" preset="VIDEO" coarse="29" fine="30" default="32767">
+					<ChannelFunction index="0" from="-360" to="360" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="22" attribute="RGB CONTROLLED" feature="COLOR ADJUST" preset="VIDEO" coarse="31" default="1" snap="true">
+					<ChannelFunction index="0" name="RGB controlled" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
+						<ChannelSet index="0" name="Separate" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Together" from_dmx="1" to_dmx="1" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="23" attribute="RED MIN" feature="COLOR ADJUST" preset="VIDEO" coarse="32">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="24" attribute="RED MAX" feature="COLOR ADJUST" preset="VIDEO" coarse="33" default="255">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="25" attribute="RED GAMMA" feature="COLOR ADJUST" preset="VIDEO" coarse="34" fine="35" default="655">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="26" attribute="GREEN MIN" feature="COLOR ADJUST" preset="VIDEO" coarse="36">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="27" attribute="GREEN MAX" feature="COLOR ADJUST" preset="VIDEO" coarse="37" default="255">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="28" attribute="GREEN GAMMA" feature="COLOR ADJUST" preset="VIDEO" coarse="38" fine="39" default="655">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="29" attribute="BLUE MIN" feature="COLOR ADJUST" preset="VIDEO" coarse="40">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="30" attribute="BLUE MAX" feature="COLOR ADJUST" preset="VIDEO" coarse="41" default="255">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="31" attribute="BLUE GAMMA" feature="COLOR ADJUST" preset="VIDEO" coarse="42" fine="43" default="655">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="32" attribute="SIZE" feature="MOVE" preset="VIDEO" coarse="45" fine="46" default="33095">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="33" attribute="CLIP FIT" feature="MOVE" preset="VIDEO" coarse="44" default="4" snap="true">
+					<ChannelFunction index="0" name="clip_type" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
+						<ChannelSet index="0" name="Clip To Canvas" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Fit Into Canvas" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="Stretch To Canvas" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="3" name="Pixel-perfect" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="4" name="Use Clip Default" from_dmx="4" to_dmx="4" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="34" attribute="SCALE X" feature="MOVE" preset="VIDEO" coarse="47" fine="48" default="33095">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="35" attribute="SCALE Y" feature="MOVE" preset="VIDEO" coarse="49" fine="50" default="33095">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="36" attribute="POSITION X" feature="MOVE" preset="VIDEO" coarse="51" fine="52" default="32767">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="37" attribute="POSITION Y" feature="MOVE" preset="VIDEO" coarse="53" fine="54" default="32767">
+					<ChannelFunction index="0" from="-100" to="100" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="38" attribute="ROTATION" feature="MOVE" preset="VIDEO" coarse="55" fine="56" default="32767">
+					<ChannelFunction index="0" from="-720" to="720" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="39" attribute="LEFT" feature="CROP" preset="VIDEO" coarse="57" fine="58" default="32767">
+					<ChannelFunction index="0" from="-1" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="40" attribute="RIGHT" feature="CROP" preset="VIDEO" coarse="59" fine="60" default="32767">
+					<ChannelFunction index="0" from="-1" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="41" attribute="TOP" feature="CROP" preset="VIDEO" coarse="61" fine="62" default="32767">
+					<ChannelFunction index="0" from="-1" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="42" attribute="BOTTOM" feature="CROP" preset="VIDEO" coarse="63" fine="64" default="32767">
+					<ChannelFunction index="0" from="-1" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="43" attribute="HOURS" feature="TIMECODE" preset="VIDEO" coarse="66">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="HOURS" subattribute_user_name="Hours" attribute="HOURS" attribute_user_name="Hours" feature="TIMECODE" feature_user_name="Timecode" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="44" attribute="MINUTES" feature="TIMECODE" preset="VIDEO" coarse="67">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="MINUTES" subattribute_user_name="Minutes" attribute="MINUTES" attribute_user_name="Minutes" feature="TIMECODE" feature_user_name="Timecode" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="45" attribute="SECONDS" feature="TIMECODE" preset="VIDEO" coarse="68">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="SECONDS" subattribute_user_name="Seconds" attribute="SECONDS" attribute_user_name="Seconds" feature="TIMECODE" feature_user_name="Timecode" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="46" attribute="FRAMES" feature="TIMECODE" preset="VIDEO" coarse="69">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMES" subattribute_user_name="Frames" attribute="FRAMES" attribute_user_name="Frames" feature="TIMECODE" feature_user_name="Timecode" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="47" attribute="ON CLOCK LOST" feature="TIMECODE" preset="VIDEO" coarse="65" snap="true">
+					<ChannelFunction index="0" name="on clock lost" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
+						<ChannelSet index="0" name="Default" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Stop" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="Play" from_dmx="2" to_dmx="2" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="48" attribute="KEY THRESHOLD" feature="COLOR ADJUST" preset="VIDEO" coarse="70">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="49" attribute="KEY HARDNESS" feature="COLOR ADJUST" preset="VIDEO" coarse="71" fine="72" default="65535">
+					<ChannelFunction index="0" from="0" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="50" attribute="KEY COLOR RED" feature="COLOR ADJUST" preset="VIDEO" coarse="73">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="51" attribute="KEY COLOR GREEN" feature="COLOR ADJUST" preset="VIDEO" coarse="74">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="52" attribute="KEY COLOR BLUE" feature="COLOR ADJUST" preset="VIDEO" coarse="75">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="53" attribute="CROP SOFTNESS" feature="CROP" preset="VIDEO" coarse="76" fine="77">
+					<ChannelFunction index="0" from="0" to="1" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="54" attribute="LOOP IN FRAME" feature="MEDIA" preset="VIDEO" coarse="78" fine="79">
+					<ChannelFunction index="0" from="0" to="65535" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+				<ChannelType index="55" attribute="LOOP OUT FRAME" feature="MEDIA" preset="VIDEO" coarse="80" fine="81">
+					<ChannelFunction index="0" from="0" to="65535" min_dmx_24="0" max_dmx_24="16777215" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>
