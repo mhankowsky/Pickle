@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.7.0/MA.xsd" major_vers="3" minor_vers="7" stream_vers="0">
 	<Info datetime="2019-07-11T15:09:04" showfile="f9 start upskilling 190710 charles evening" />
-	<FixtureType index="3" name="d3 Timeline" mode="listen_pickle_RevA1">
+	<FixtureType index="3" name="d3 Timeline" mode="listen_pickle_RevA2">
 		<short_name>Timeline-listen</short_name>
 		<manufacturer>d3</manufacturer>
 		<short_manufacturer>d3</short_manufacturer>
