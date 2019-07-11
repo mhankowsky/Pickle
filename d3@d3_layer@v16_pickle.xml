@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.7.0/MA.xsd" major_vers="3" minor_vers="7" stream_vers="0">
-	<Info datetime="2019-07-10T18:22:33" showfile="f9 start upskilling 190710 charles" />
-	<FixtureType index="39" name="d3 Layer" mode="v16_pickle_RevA1">
+	<Info datetime="2019-07-11T15:09:02" showfile="f9 start upskilling 190710 charles evening" />
+	<FixtureType index="1" name="d3 Layer" mode="v16_pickle_RevA1">
 		<short_name>d3-Layer</short_name>
 		<manufacturer>d3</manufacturer>
 		<short_manufacturer>d3</short_manufacturer>
@@ -30,7 +30,7 @@
 						<ChannelSet index="18" name="Hard Mix" from_dmx="18" to_dmx="18" />
 					</ChannelFunction>
 				</ChannelType>
-				<ChannelType index="1" attribute="DIMMER" feature="DIMMER" preset="DIMMER" coarse="2" default="255">
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" default="255">
 					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
 				</ChannelType>
 				<ChannelType index="2" attribute="MAPPING BANK" feature="DEFAULT" preset="VIDEO" coarse="3" snap="true">
