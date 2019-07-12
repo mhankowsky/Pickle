@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="2" minor_vers="8" stream_Vers="3" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd">
+  <FixtureType index="0" mode="v1_pickle_RevA1" name="d3 FadeModule">
+    <short_name>d3-FadeModule</short_name>
+    <manufacturer>d3</manufacturer>
+    <short_manufacturer>d3</short_manufacturer>
+    <Modules index="0">
+      <Module beam_angle="35.000" beam_intensity="10000.000" beamtype="Wash" class="None" index="0">
+        <ChannelType attribute="DIM" coarse="1" default="255.0" feature="DIMMER" grandmaster="true" index="0" is_dimmer="true" max="255.0" min="0.0" preset="DIMMER">
+          <ChannelFunction attribute="DIM" feature="DIMMER" from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" physfrom="0.000" physto="1.000" preset="DIMMER" subattribute="DIM" to="255.0"/>
+        </ChannelType>
+        <ChannelType attribute="COLORRGB1" coarse="2" default="255" feature="COLORRGB" index="1" preset="COLOR">
+          <ChannelFunction feature="COLORRGB" from="0.000" index="0" max_dmx_24="16777215" min_dmx_24="0" physfrom="0.000" physto="1.000" preset="COLOR" subattribute="COLORRGB1" to="100.000"/>
+        </ChannelType>
+        <ChannelType attribute="COLORRGB2" coarse="3" default="255" feature="COLORRGB" index="1" preset="COLOR">
+          <ChannelFunction feature="COLORRGB" from="0.000" index="0" max_dmx_24="16777215" min_dmx_24="0" physfrom="0.000" physto="1.000" preset="COLOR" subattribute="COLORRGB2" to="100.000"/>
+        </ChannelType>
+        <ChannelType attribute="COLORRGB3" coarse="4" default="255" feature="COLORRGB" index="1" preset="COLOR">
+          <ChannelFunction feature="COLORRGB" from="0.000" index="0" max_dmx_24="16777215" min_dmx_24="0" physfrom="0.000" physto="1.000" preset="COLOR" subattribute="COLORRGB3" to="100.000"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 0 BANK" coarse="5" default="0" feature="FADEMODULE" index="2" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 0 SLOT" coarse="6" default="0" feature="FADEMODULE" index="3" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 0" coarse="7" default="65535" feature="FADEMODULE" fine="8" index="4" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 1 BANK" coarse="9" default="0" feature="FADEMODULE" index="5" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 1 SLOT" coarse="10" default="0" feature="FADEMODULE" index="6" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 1" coarse="11" default="65535" feature="FADEMODULE" fine="12" index="7" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 2 BANK" coarse="13" default="0" feature="FADEMODULE" index="8" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 2 SLOT" coarse="14" default="0" feature="FADEMODULE" index="9" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 2" coarse="15" default="65535" feature="FADEMODULE" fine="16" index="10" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 3 BANK" coarse="17" default="0" feature="FADEMODULE" index="11" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 3 SLOT" coarse="18" default="0" feature="FADEMODULE" index="12" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 3" coarse="19" default="65535" feature="FADEMODULE" fine="20" index="13" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 4 BANK" coarse="21" default="0" feature="FADEMODULE" index="14" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 4 SLOT" coarse="22" default="0" feature="FADEMODULE" index="15" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 4" coarse="23" default="65535" feature="FADEMODULE" fine="24" index="16" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 5 BANK" coarse="25" default="0" feature="FADEMODULE" index="17" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 5 SLOT" coarse="26" default="0" feature="FADEMODULE" index="18" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 5" coarse="27" default="65535" feature="FADEMODULE" fine="28" index="19" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 6 BANK" coarse="29" default="0" feature="FADEMODULE" index="20" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 6 SLOT" coarse="30" default="0" feature="FADEMODULE" index="21" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 6" coarse="31" default="65535" feature="FADEMODULE" fine="32" index="22" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 7 BANK" coarse="33" default="0" feature="FADEMODULE" index="23" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="GROUP 7 SLOT" coarse="34" default="0" feature="FADEMODULE" index="24" preset="VIDEO">
+          <ChannelFunction from="0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="255"/>
+        </ChannelType>
+        <ChannelType attribute="FADE 7" coarse="35" default="65535" feature="FADEMODULE" fine="36" index="25" preset="VIDEO">
+          <ChannelFunction from="0.0" index="0" max_dmx_24="16777215" min_dmx_24="0" to="1.0"/>
+        </ChannelType>
+      </Module>
+    </Modules>
+    <Instances index="1">
+      <Instance index="0" module_index="0" patch="1"/>
+    </Instances>
+    <Wheels index="2"/>
+    <VirtualFunctionBlocks index="3"/>
+    <Body/>
+  </FixtureType>
+</MA>

@@ -10,16 +10,16 @@
 				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" default="255">
 					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
 				</ChannelType>
-				<ChannelType index="1" attribute="CUE XX" feature="CUE SELECT" preset="VIDEO" coarse="5">
+				<ChannelType index="1" attribute="CUE XX" feature="Cue Select" preset="VIDEO" coarse="5">
 					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
 				</ChannelType>
-				<ChannelType index="2" attribute="CUE YY" feature="CUE SELECT" preset="VIDEO" coarse="6">
+				<ChannelType index="2" attribute="CUE YY" feature="Cue Select" preset="VIDEO" coarse="6">
 					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
 				</ChannelType>
-				<ChannelType index="3" attribute="CUE ZZ" feature="CUE SELECT" preset="VIDEO" coarse="7">
+				<ChannelType index="3" attribute="CUE ZZ" feature="Cue Select" preset="VIDEO" coarse="7">
 					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" />
 				</ChannelType>
-				<ChannelType index="4" attribute="PLAY STATUS" feature="Command" preset="VIDEO" coarse="8" snap="true">
+				<ChannelType index="4" attribute="Play Status" feature="Command" preset="VIDEO" coarse="8" snap="true">
 					<ChannelFunction index="0" name="Play Status" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215">
 						<ChannelSet index="0" name="Idle" from_dmx="0" to_dmx="9" />
 						<ChannelSet index="1" name="Play" from_dmx="11" to_dmx="20" />
@@ -43,7 +43,7 @@
 		<VirtualFunctionBlocks index="3" />
 		<FixtureMacroCollect index="5" />
 		<Body />
-		<AutoPresets index="4" />
+		<AutoPresets index="3" />
 		<RdmNotifications index="6">
 			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
 		</RdmNotifications>
